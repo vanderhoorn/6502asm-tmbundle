@@ -54,13 +54,13 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(REPEAT|REPEND|MAC|ENDM|SUBROUTINE)\b</string>
+			<string>\b(repeat|repend|mac|endm|subroutine)\b</string>
 			<key>name</key>
 			<string>support.function</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(processor|org)\b</string>
+			<string>\b(processor|org|incbin|include|align)\b</string>
 			<key>name</key>
 			<string>constant.language</string>
 		</dict>
