@@ -108,9 +108,21 @@
 		</dict>
 		<dict>
 			<key>match</key>
+			<string>#?[0-9]+</string>
+			<key>name</key>
+			<string>constant.numeric.decimal</string>
+		</dict>
+		<dict>
+			<key>match</key>
 			<string>#?\$[0-9a-fA-F]+</string>
 			<key>name</key>
 			<string>constant.numeric.hex</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>#?%[0-1]+</string>
+			<key>name</key>
+			<string>constant.numeric.binary</string>
 		</dict>
 		<dict>
 			<key>match</key>
