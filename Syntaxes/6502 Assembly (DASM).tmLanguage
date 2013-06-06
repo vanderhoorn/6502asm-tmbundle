@@ -43,7 +43,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(byte|hex|set|word)\b</string>
+			<string>(?i)\.\b(byte|hex|set|word)\b</string>
 			<key>name</key>
 			<string>storage.type</string>
 		</dict>
