@@ -28,6 +28,12 @@
 			<string>keyword.control</string>
 		</dict>
 		<dict>
+			<key>match</key>
+			<string>=|\+|-|\*</string>
+			<key>name</key>
+			<string>keyword.operators</string>
+		</dict>
+		<dict>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
