@@ -17,13 +17,13 @@
 	<array>
 		<dict>
 			<key>match</key>
-			<string>\b(adc|and|asl|bit|clc|cld|cli|clv|cmp|cpx|cpy|dec|dex|dey|eor|inc|inx|iny|lda|ldx|ldy|lsr|nop|ora|pha|php|pla|plp|rol|ror|sbc|sec|sed|sei|sta|stx|sty|tax|txa|tay|tya|tsx|txs)\b</string>
+			<string>(?i)\b(adc|and|asl|bit|clc|cld|cli|clv|cmp|cpx|cpy|dec|dex|dey|eor|inc|inx|iny|lda|ldx|ldy|lsr|nop|ora|pha|php|pla|plp|rol|ror|sbc|sec|sed|sei|sta|stx|sty|tax|txa|tay|tya|tsx|txs)\b</string>
 			<key>name</key>
 			<string>keyword</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(bcc|bcs|beq|bmi|bne|bpl|brk|bvc|bvs|jmp|jsr|rti|rts)\b</string>
+			<string>(?i)\b(bcc|bcs|beq|bmi|bne|bpl|brk|bvc|bvs|jmp|jsr|rti|rts)\b</string>
 			<key>name</key>
 			<string>keyword.control</string>
 		</dict>
@@ -43,25 +43,25 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(SET|WORD|BYTE|HEX)\b</string>
+			<string>(?i)\b(SET|WORD|BYTE|HEX)\b</string>
 			<key>name</key>
 			<string>storage.type</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(ALIGN)\b</string>
+			<string>(?i)\b(ALIGN)\b</string>
 			<key>name</key>
 			<string>storage.modifier</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(repeat|repend|mac|endm|subroutine)\b</string>
+			<string>(?i)\b(repeat|repend|mac|endm|subroutine)\b</string>
 			<key>name</key>
 			<string>support.function</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(processor|org|incbin|include|align)\b</string>
+			<string>(?i)\b(processor|org|incbin|include|align)\b</string>
 			<key>name</key>
 			<string>constant.language</string>
 		</dict>
