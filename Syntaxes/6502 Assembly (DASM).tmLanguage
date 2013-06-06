@@ -43,25 +43,25 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(SET|WORD|BYTE|HEX)\b</string>
+			<string>(?i)\b(byte|hex|set|word)\b</string>
 			<key>name</key>
 			<string>storage.type</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(ALIGN)\b</string>
+			<string>(?i)\b(align)\b</string>
 			<key>name</key>
 			<string>storage.modifier</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(repeat|repend|mac|endm|subroutine)\b</string>
+			<string>(?i)\b(endm|mac|repeat|repend|subroutine)\b</string>
 			<key>name</key>
 			<string>support.function</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(processor|org|incbin|include|align)\b</string>
+			<string>(?i)\b(incbin|include|org|processor)\b</string>
 			<key>name</key>
 			<string>constant.language</string>
 		</dict>
